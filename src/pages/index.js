@@ -4,7 +4,7 @@ import react, { useState } from 'react';
 function Home() {
   const [count, setCount] = useState(0);
   function handleEvent () {
-    setCount(count -1);
+    setCount(count +1);
   }  
 
 
